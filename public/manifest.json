@@ -1,6 +1,6 @@
 {
-  "short_name": "crudform",
-  "name": "Crud Form",
+  "short_name": "monitor",
+  "name": "monitor",
   "icons": [
     {
       "src": "favicon.ico",
