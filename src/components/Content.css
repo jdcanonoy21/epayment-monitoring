@@ -17,18 +17,18 @@
 .Content__header p{
   margin: 0px;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 27px;
   color: #2980b9;
   font-weight: bold;
   display: inline-block;
 }
 .Content__lgu{
-  font-size: 32px; 
+  font-size: 27px; 
   margin:0px;
-  width: 250px;
+  width: 200px;
 }
 .Content__partners{
-  font-size: 35px;
+  font-size: 27px;
   margin:0px;
   width: 270px;
 }
