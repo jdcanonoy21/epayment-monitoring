@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Content.css";
+import logo from "../assets/logo.png"
 
 const initialPartners = [
   { name: "Gcash" },
@@ -24,7 +25,7 @@ const Content = (props) => {
 
   return (
     <div className="Content">
-      <center><h1>ePayment Monitoring</h1></center>
+      <center><img src={logo} width="250"/></center>
       <div className="Content__header">
         <p className="Content__lgu">LGU</p>
         {partners.map((partner) => (

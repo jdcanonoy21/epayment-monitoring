@@ -11,16 +11,18 @@
 }
 .Content__header{
    padding-left: 10px;
-   padding-top: 15px;
-  background: #ffffff;
+   padding-top: 5px;
+   background: #cb9834;
 }
 .Content__header p{
   margin: 0px;
   text-transform: uppercase;
   font-size: 27px;
-  color: #2980b9;
+  color: #ffffff;
   font-weight: bold;
   display: inline-block;
+  background: #cb9834;
+  padding: 5px;
 }
 .Content__lgu{
   font-size: 27px; 
@@ -40,5 +42,19 @@
 }
 .Content__subContainer p{
   display: inline-block;
+  padding: 5px;
 }
-
+@media only screen and (max-width: 1600px) {
+  .Content__header p{
+  font-size: 16px;
+  }
+  .Content__partners{
+  width: 180px;
+  }
+  .Content__lgu{
+  font-size: 16px; 
+  }
+  .Content__partners{
+    font-size: 16px;
+  }
+}
